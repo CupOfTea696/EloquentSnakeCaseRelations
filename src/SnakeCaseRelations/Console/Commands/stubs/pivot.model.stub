@@ -1,0 +1,10 @@
+<?php
+
+namespace DummyNamespace;
+
+use CupOfTea\Database\Eloquent\Relations\Pivot;
+
+class DummyClass extends Pivot
+{
+    //
+}

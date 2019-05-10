@@ -1,0 +1,34 @@
+{
+    "name": "cupoftea/eloquent-snake-relations",
+    "description": "A simple trait to access your Eloquent relations using its snake_case property",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frankie Wittevrongel",
+            "email": "frankie@cupoftea.io"
+        }
+    ],
+    "require": {
+        "cupoftea/package": "^1.4",
+        "illuminate/database": "^5.8",
+        "illuminate/support": "^5.8"
+    },
+    "require-dev": {
+        "laravel/framework": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "CupOfTea\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CupOfTea\\SnakeCaseRelations\\ServiceProvider"
+            ]
+        }
+    }
+}

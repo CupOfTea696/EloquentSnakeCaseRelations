@@ -1,0 +1,10 @@
+<?php
+
+namespace DummyNamespace;
+
+use CupOfTea\Database\Eloquent\Model;
+
+class DummyClass extends Model
+{
+    //
+}
