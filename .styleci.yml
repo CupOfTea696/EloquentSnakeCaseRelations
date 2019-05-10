@@ -1,12 +1,21 @@
 preset: laravel
 
 enabled:
+  - "blank_line_before_continue"
+  - "blank_line_before_throw"
+  - "blank_line_before_try"
+  - "compact_nullable_typehint"
   - "concat_with_spaces"
+  - "fully_qualified_strict_types"
+  - "method_chaining_indentation"
+  - "no_blank_lines_after_return"
+  - "no_spaces_outside_offset"
+  - "no_superfluous_elseif"
+  - "no_unneeded_final_method"
+  - "no_useless_else"
+  - "property_separation"
+  - "return_type_declaration"
+  - "ternary_to_null_coalescing"
 
 disabled:
-  - "blankline_after_open_tag"
   - "concat_without_spaces"
-  - "no_blank_lines_after_class_opening"
-  - "remove_lines_between_uses"
-  - "single_blank_line_before_namespace"
-  - "whitespacy_lines"
