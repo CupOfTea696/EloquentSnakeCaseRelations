@@ -7,7 +7,7 @@ use Illuminate\Foundation\Console\ModelMakeCommand as BaseCommand;
 class ModelMakeCommand extends BaseCommand
 {
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     protected function getStub()
     {
