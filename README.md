@@ -12,6 +12,8 @@ Install via composer by running `composer require cupoftea/eloquent-snake-relati
 
 Once installed, Models created via the `make:model` command will automatically extend `CupOfTea\Database\Eloquent\Model` to allow relation access via the snake_cased relation name.
 
+To update the User Model, replace the `Illuminate\Foundation\Auth\User` import with `CupOfTea\Auth\User`. You can keep the alias used for the import.
+
 If you have already created some Models in your Application, simply replace the `Illuminate\Database\Eloquent\Model` import with `CupOfTea\Database\Eloquent\Model`, or for Pivot Models, replace the `Illuminate\Database\Eloquent\Relations\Pivot` import with `CupOfTea\Database\Eloquent\Relations\Pivot`.
 
 Alternatively, if you are extending your own Model class, you can use the `CupOfTea\Database\Eloquent\Concerns\HasSnakeCaseRelations` trait on that Model, or extend it from `CupOfTea\Database\Eloquent\Model` instead of `Illuminate\Database\Eloquent\Model`.
